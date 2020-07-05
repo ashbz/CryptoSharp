@@ -28,6 +28,17 @@ This is a complete cryptocurrency backtesting platform that I developed as my fi
 - RestSharp (HTTP requests to communicate with the backend)
 - Newtonsoft Json (json parser)
 
+## Running
+To compile and run, after restoring all packages from nuget, set default Binance API Key and Secret in CryptoCore.Classes.Globals.DEFAULT_BINANCE_KEY and CryptoCore.Classes.Globals.DEFAULT_BINANCE_SECRET.
+
+Default user login is:
+User: admin
+Pass: 123
+
+First you run *CryptoAPI server* (the easiest way is _dotnet CryptoAPI.dll_) and afterwards you run CryptoFront.exe, which is the frontend.
+
+
+
 ## Screenshots
 #### .Net Core API server (Backend)
 ![.Net Core API server](https://i.imgur.com/y3NRmAs.png)
