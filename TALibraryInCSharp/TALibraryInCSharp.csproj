@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2671CB2-5A5A-49D6-9C43-E2F1F6A13F27}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TALibraryInCSharp</RootNamespace>
+    <AssemblyName>TALibraryInCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TACore.cs">
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Acos.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Ad.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Add.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_AdOsc.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Adx.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Adxr.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Apo.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Aroon.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_AroonOsc.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Asin.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Atan.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Atr.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_AvgPrice.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Bbands.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Beta.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Bop.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cci.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cdl2Crows.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cdl3BlackCrows.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cdl3Inside.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cdl3LineStrike.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cdl3Outside.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cdl3StarsInSouth.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cdl3WhiteSoldiers.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlAbandonedBaby.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlAdvanceBlock.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlBeltHold.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlBreakaway.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlClosingMarubozu.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlConcealBabysWall.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlCounterAttack.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlDarkCloudCover.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlDoji.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlDojiStar.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlDragonflyDoji.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlEngulfing.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlEveningDojiStar.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlEveningStar.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlGapSideSideWhite.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlGravestoneDoji.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlHammer.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlHangingMan.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlHarami.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlHaramiCross.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlHignWave.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlHikkake.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlHikkakeMod.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlHomingPigeon.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlIdentical3Crows.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlInNeck.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlInvertedHammer.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlKicking.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlKickingByLength.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlLadderBottom.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlLongLeggedDoji.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlLongLine.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlMarubozu.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlMatchingLow.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlMatHold.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlMorningDojiStar.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlMorningStar.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlOnNeck.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlPiercing.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlRickshawMan.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlRiseFall3Methods.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlSeperatingLines.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlShootingStar.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlShortLine.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlSpinningTop.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlStalledPattern.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlStickSandwhich.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlTakuri.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlTasukiGap.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlThrusting.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlTristar.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlUnique3River.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlUpsideGap2Crows.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_CdlXSideGap3Methods.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Ceil.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cmo.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Correl.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cos.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Cosh.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Dema.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Div.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Dx.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Ema.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Exp.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Floor.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_HtDcPeriod.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_HtDcPhase.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_HtPhasor.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_HtSine.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_HtTrendline.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_HtTrendMode.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Kama.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_LinearReg.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_LinearRegAngle.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_LinearRegIntercept.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_LinearRegSlope.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Ln.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Log10.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Macd.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MacdExt.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MacdFix.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Mama.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Max.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MaxIndex.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MedPrice.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Mfi.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MidPoint.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MidPrice.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Min.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MinIndex.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MinMax.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MinMaxIndex.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MinusDI.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MinusDM.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Mom.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MovingAverage.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_MovingAverageVariablePeriod.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Mult.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Natr.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Obv.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_PlusDI.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_PlusDM.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Ppo.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Roc.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_RocP.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_RocR.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_RocR100.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Rsi.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Sar.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_SarExt.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Sin.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Sinh.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Sma.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Sqrt.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_StdDev.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Stoch.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_StochF.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_StochRsi.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Sub.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Sum.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_T3.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Tan.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Tanh.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Tema.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Trima.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Trix.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_TrueRange.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Tsf.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_TypPrice.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_UltOsc.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Variance.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_WclPrice.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_WillR.cs">
+    </Compile>
+    <Compile Include="TAFunc\TA_Wma.cs">
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
